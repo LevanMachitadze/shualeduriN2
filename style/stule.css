@@ -12,7 +12,7 @@
   --color-six: #ffffff;
 }
 body {
-  font-family: "Barlow", sans-serif;
+  font-family: 'Barlow', sans-serif;
 }
 header {
   display: flex;
@@ -60,7 +60,24 @@ h1 {
   font-size: 56px;
 }
 p {
-  font-size: 26px;
+  font-size: 18px;
+  color: var(--color-four);
+  margin-top: 24px;
+}
+.pre-order {
+  width: 175px;
+  height: 58px;
+  font-weight: bold;
+  background-color: var(--color-one);
+  color: var(--color-five);
+  border-radius: 8px;
+  border: none;
+  margin-top: 40px;
+  margin-right: 40px;
+}
+.relase {
+  font-size: 16px;
+  font-weight: bold;
   color: var(--color-four);
 }
 .first-img {
@@ -100,4 +117,24 @@ p {
   width: 255px;
   height: 265px;
   margin: 112px 165px 103px 0px;
+}
+.main-footer {
+  width: 1110px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 168px;
+}
+.down-containers {
+  width: 255px;
+  height: 323px;
+}
+h3 {
+  font-size: 24px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-left {
+  font-weight: bold;
 }
