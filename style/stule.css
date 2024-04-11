@@ -254,3 +254,71 @@ footer {
     margin-bottom: 40px;
   }
 }
+@media screen and (max-width: 375px) {
+  header {
+    justify-content: center;
+  }
+  .header {
+    width: 327px;
+    height: 48px;
+    margin: 23px 24px 64px 24px;
+  }
+
+  .pre-order {
+    width: 151px;
+    height: 48px;
+  }
+  .main-up {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .Typemaster-Keyboard {
+    width: 327px;
+    height: 286px;
+    margin-left: 24px;
+  }
+  .first-img {
+    width: 372px;
+    height: 331px;
+    margin-left: 24px;
+    margin-bottom: 64px;
+  }
+  .main-down {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .second-img {
+    width: 129px;
+    height: 193px;
+    margin-right: 24px;
+    margin-left: 0;
+  }
+  .third-img {
+    width: 220px;
+    height: 193px;
+  }
+  .mechanical-keyboard {
+    width: 327px;
+    height: 236px;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .description-two {
+    text-align: center;
+  }
+  .down-containers {
+    width: 327px;
+    height: 297px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 64px;
+    margin-left: 24px;
+  }
+}
