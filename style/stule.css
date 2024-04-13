@@ -11,6 +11,13 @@
   --color-five: #e8eff2;
   --color-six: #ffffff;
 }
+.header-right:hover {
+  background-color: var(--color-three);
+  color: var(--color-six);
+}
+.pre-order:hover {
+  background-color: var(--color-two);
+}
 body {
   font-family: 'Barlow', sans-serif;
 }
@@ -252,6 +259,9 @@ footer {
   .icons-background {
     margin-bottom: 40px;
   }
+  footer {
+    width: 768px;
+  }
 }
 @media screen and (max-width: 375px) {
   header {
@@ -321,6 +331,6 @@ footer {
     margin-left: 24px;
   }
   footer {
-    width: 100%;
+    width: 768px;
   }
 }
