@@ -245,7 +245,6 @@ footer {
   }
   .main-footer {
     width: 631px;
-    height: 650px;
     flex-wrap: wrap;
 
     margin: 0px 40px 142px -20px;
@@ -320,5 +319,8 @@ footer {
     text-align: center;
     margin-bottom: 64px;
     margin-left: 24px;
+  }
+  footer {
+    width: 100%;
   }
 }
